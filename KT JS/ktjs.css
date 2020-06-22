@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.noidung {
+    width: 60%;
+    margin-left: 40px;
+
+    position: absolute;
+    top: 30%;
+    left: 0;
+    z-index: 0;
+}
+.khung-phai {
+    width: 35%;
+    /* background-color: aqua; */
+
+    position: absolute;
+    top: 30%;
+    right: 0;
+    z-index: 0;
+}
+.khung-phai img {
+    width: 520px;
+    height: 300px;
+    padding: 10px 0px 10px 0px;
+    /* position: fixed; */
+}
+
+.noidung p{
+    font-size: 30px;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+.header {
+    width: 1566px;
+    height: 150px;
+    background-color: white;
+    position: fixed;
+
+    z-index: 3;
+}
+.header img {
+    width: 300px;
+    height: 150px;
+    margin-left: 20px;
+}
+.header p {
+    font-size: 40px;
+    font-weight: 900;
+
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    z-index: 2;
+}
+
+
+.menu {
+    display: block;
+    width: 1566px;
+    height: 60px;
+    background-color: green;
+    position: fixed;
+    margin-top: 150px;
+    
+    z-index: 3;
+}
+.menu ul {
+    list-style: none;
+}
+.menu ul li {
+    float: left;
+    /* margin-top: 10px; */
+}
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 10px 20px;
+    font-size: 20px;
+}
+.menu ul li:hover {
+    width: auto;
+    height: 60px;
+    background-color: white;
+}
+.search {
+    margin-right: 40px;
+}
+.menu button {
+    width: 100px;
+    height: 50px;
+    outline: none;
+    opacity: 1;
+}
+.menu button:hover {
+    color: brown;
+}
+.search input {
+    width: 200px;
+    height: 40px;
+    outline: none;
+    color: wheat;
+    background-color: black;
+    opacity: 1;
+    transition: 1s;
+}
+.hieuung {
+    
+    margin-right: 400px;
+    opacity: 0;
+    transition: 1s;
+}
+.hieuung2{
+    top: 50px;
+    transition: 0.5s;
+    opacity: 1;
+}
+.imgfix{
+    position: fixed;
+}
